@@ -1,0 +1,25 @@
+.btn {
+    border-radius: 20px;
+    padding: 7px 25px;
+    font-weight: 700;
+	color: white;
+	
+	background-color: #860051;
+	margin-bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	font-size: 15px;
+	line-height: 1.66667;
+	-moz-user-select: none;
+}
+
+.btn:hover {
+	color: white;
+	background-color: #666666;
+	border-color: #7C004B;
+}
+

@@ -9,8 +9,11 @@
 		
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="img/icon_launcher_final_2.png" /> 
-
+		<!-- Boostrap -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		
+		<!-- Estilos de la página -->
+		<link rel="stylesheet" href="ce-estilos.css">
   
 	</head>
 	<body>
@@ -23,14 +26,7 @@
 		<div class="navbar-header">
 		  <a class="navbar-brand" href="#">Camins Escolars</a>
 		</div>
-		<div>
-		  <ul class="nav navbar-nav">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#">Page 1</a></li>
-			<li><a href="#">Page 2</a></li>
-			<li><a href="#">Page 3</a></li>
-		  </ul>
-		</div>
+		
 	  </div>
 	</nav>
 		
@@ -41,10 +37,10 @@
 			  </div>
 		</div>
 		
-		<div class="container">			
+		<div class="container" >			
 			<div class="row">
 				<div class="col-xs-4 col-xs-offset-3 col-md-4 col-md-offset-3">
-					 <form role="form">
+					 <form role="form" class="form-box register-form contact-form">
 						<div class="form-group">
 								<label for="email">N&uacute;mero de usuario:</label>
 								<input type="email" class="form-control" id="email">
@@ -54,13 +50,35 @@
 								<input type="password" class="form-control" id="pwd">
 						</div>
 					
-						<button type="submit" class="btn btn-default">Acceder</button>
+						<button type="submit" class="btn btn-default" style=" color: white;">Acceder</button>
 					</form>
 				</div>
 			</div>
-		
-
 		</div>
+		
+		<div class="clearfix" style="height: 100px;"></div>
+		
+		<footer id="footer" style="top: 30px; background-color: #860051";">
+            <div class="footer-bottom">
+                <div class="container" style="height: 60px;">
+                    <div class="row" style="color: white;">
+                        <div class="copyright col-xs-12 col-sm-3 col-md-3" >
+                            (c) iKanguro (2015);
+                        </div>
+
+                        <div class="phone col-xs-6 col-sm-3 col-md-3">
+                            <strong class="title">Llámanos:</strong> 93 474 80 42  <br>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-md-offset-3">
+                            <a href="#" class="up">
+                                <span class="glyphicon glyphicon-arrow-up" style="margin-left: 50%; color: white;"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .footer-bottom -->
+        </footer>
 	
 	
 
