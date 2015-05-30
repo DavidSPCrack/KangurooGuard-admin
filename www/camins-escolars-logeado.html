@@ -273,31 +273,8 @@
 			Parse.initialize("TryWsZNlenNVm78IatXtzpPEM8G2CJISYEffoznN","OSE7NH74ch3zNVzZTBShjOtUeAM1lvn016o0eoYy");
 			var User = Parse.Object.extend("User");
 			var usuario = new User();
-			var query = new Parse.Query(User);
 			
 			
-			// Cambias los valores	
-			
-			
-			query.equalTo(usuario.id, valueIdentificador);
-			
-
-			query.first({
-			  success: function(object) {
-
-				object.id = valueIdentificador;			
-				object.set("username",nombre);
-				object.set("password",contra);
-				object.set("email",mail);
-				object.set("type",tipoUs);
-				object.save();
-
-
-			  },
-			  error: function(error) {
-				alert("Error: " + error.code + " " + error.message);
-			  }
-			});
 			
 		}
 		
